@@ -6,10 +6,6 @@
 
 Type-safe unit conversions between length, weight, temperature, volume, data size, and speed with formatting.
 
-## Requirements
-
-- .NET 8.0 or later
-
 ## Installation
 
 ```bash
@@ -66,13 +62,9 @@ string result = Convert.Format(2_500_000.0, DataSize.Bytes, DataSize.MB, "F2");
 ## Development
 
 ```bash
-# Build
 dotnet build src/Philiprehberger.UnitConverter.csproj --configuration Release
-
-# Pack
-dotnet pack src/Philiprehberger.UnitConverter.csproj --configuration Release -o out
 ```
 
 ## License
 
-[MIT](LICENSE)
+MIT
