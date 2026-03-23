@@ -1,8 +1,8 @@
 # Philiprehberger.UnitConverter
 
-[![NuGet](https://img.shields.io/nuget/v/Philiprehberger.UnitConverter)](https://www.nuget.org/packages/Philiprehberger.UnitConverter)
 [![CI](https://github.com/philiprehberger/dotnet-unit-converter/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-unit-converter/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/philiprehberger/dotnet-unit-converter/blob/main/LICENSE)
+[![NuGet](https://img.shields.io/nuget/v/Philiprehberger.UnitConverter.svg)](https://www.nuget.org/packages/Philiprehberger.UnitConverter)
+[![License](https://img.shields.io/github/license/philiprehberger/dotnet-unit-converter)](LICENSE)
 
 Type-safe unit conversions between length, weight, temperature, volume, data size, and speed with formatting.
 

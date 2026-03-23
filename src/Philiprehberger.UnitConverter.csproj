@@ -9,7 +9,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
     <PackageId>Philiprehberger.UnitConverter</PackageId>
-    <Version>0.1.1</Version>
+    <Version>0.1.2</Version>
     <Authors>Philip Rehberger</Authors>
     <Description>Type-safe unit conversions between length, weight, temperature, volume, data size, and speed with formatting.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
