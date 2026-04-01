@@ -4,7 +4,7 @@
 [![NuGet](https://img.shields.io/nuget/v/Philiprehberger.UnitConverter.svg)](https://www.nuget.org/packages/Philiprehberger.UnitConverter)
 [![Last updated](https://img.shields.io/github/last-commit/philiprehberger/dotnet-unit-converter)](https://github.com/philiprehberger/dotnet-unit-converter/commits/main)
 
-Type-safe unit conversions between length, weight, temperature, volume, data size, and speed with formatting.
+Type-safe unit conversions for length, weight, temperature, volume, data size, speed, pressure, area, and energy.
 
 ## Installation
 
@@ -44,6 +44,42 @@ string result = Convert.Format(2_500_000.0, DataSize.Bytes, DataSize.MB, "F2");
 // "2.38 MB"
 ```
 
+### Pressure Conversion
+
+```csharp
+using Philiprehberger.UnitConverter;
+
+double bar = Convert.From(101325.0, Pressure.Pascals).To(Pressure.Bar);
+// 1.01325
+
+double psi = Convert.From(1.0, Pressure.Atmosphere).To(Pressure.PSI);
+// 14.696...
+```
+
+### Area Conversion
+
+```csharp
+using Philiprehberger.UnitConverter;
+
+double acres = Convert.From(1.0, Area.SquareKilometers).To(Area.Acres);
+// 247.105...
+
+double hectares = Convert.From(10000.0, Area.SquareMeters).To(Area.Hectares);
+// 1.0
+```
+
+### Energy Conversion
+
+```csharp
+using Philiprehberger.UnitConverter;
+
+double calories = Convert.From(4.184, Energy.Joules).To(Energy.Calories);
+// 1.0
+
+double kwh = Convert.From(3600000.0, Energy.Joules).To(Energy.KilowattHours);
+// 1.0
+```
+
 ## API
 
 | Member | Description |
@@ -58,6 +94,9 @@ string result = Convert.Format(2_500_000.0, DataSize.Bytes, DataSize.MB, "F2");
 | `Volume` | Liters, Milliliters, Gallons, Quarts, Cups, FluidOunces. |
 | `DataSize` | Bytes, KB, MB, GB, TB, PB. |
 | `Speed` | MetersPerSecond, KilometersPerHour, MilesPerHour, Knots. |
+| `Pressure` | Pascals, Kilopascals, Bar, PSI, Atmosphere, Torr, MillimetersOfMercury. |
+| `Area` | SquareMeters, SquareKilometers, SquareFeet, SquareYards, Acres, Hectares. |
+| `Energy` | Joules, Kilojoules, Calories, Kilocalories, WattHours, KilowattHours, BTU. |
 
 ## Development
 

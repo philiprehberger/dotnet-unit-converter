@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.0 (2026-03-31)
+
+- Add pressure unit conversions (Pascals, Kilopascals, Bar, PSI, Atmosphere, Torr, mmHg)
+- Add area unit conversions (SquareMeters, SquareKilometers, SquareFeet, SquareYards, Acres, Hectares)
+- Add energy unit conversions (Joules, Kilojoules, Calories, Kilocalories, WattHours, KilowattHours, BTU)
+
 ## 0.1.3 (2026-03-31)
 
 - Standardize README to 3-badge format with emoji Support section

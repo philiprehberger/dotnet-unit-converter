@@ -9,9 +9,9 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
     <PackageId>Philiprehberger.UnitConverter</PackageId>
-    <Version>0.1.3</Version>
+    <Version>0.2.0</Version>
     <Authors>Philip Rehberger</Authors>
-    <Description>Type-safe unit conversions between length, weight, temperature, volume, data size, and speed with formatting.</Description>
+    <Description>Type-safe unit conversions for length, weight, temperature, volume, data size, speed, pressure, area, and energy.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>units;conversion;measurement;length;temperature</PackageTags>
